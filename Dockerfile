@@ -21,4 +21,4 @@ RUN bash -c " \
 "
 
 # Expose the port
-EXPOSE 80
+EXPOSE 80 5173
