@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: ${COMPOSE_PROJECT_NAME}_laravel_app
     ports:
-      - "8001:8000"   # Laravel's default port mapped to 8081 on the host
+      - "8001:8000"   # Laravel's default port mapped to
       - "5173:5173"   # Vite port
     environment:
       APP_ENV: local
