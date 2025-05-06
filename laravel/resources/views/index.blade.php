@@ -11,7 +11,7 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @endif
     </head>
-    <body>
+    <body style="background-color: black">
         <div id="app"></div>
     </body>
 </html>
